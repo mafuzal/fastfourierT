@@ -9,17 +9,17 @@ For Example: Nvidia Geforce GTX 1050 Ti:
     *  For cuDNN, download a version that supports CUDA SDK 11.x 
 3. Run `C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build>vcvars64.bat` in Program Files as shown in Figure 1 below: 
 <img src="MarkdownImages/vcvars.PNG" alt="alt text" title="Run vcvarsXX.bat" />
-4. Install CUDA with supported compute capability as described above: [CUDA Installation](https://developer.nvidia.com/cuda-downloads)
-5. Install [cuDNN](https://developer.nvidia.com/cudnn) and move the files into a new-folder called tools in Nvidia GPU Computing Toolkit 
+4. Install CUDA with supported compute capability as described above: [CUDA Installation](https://developer.nvidia.com/cuda-downloads)  
+5. Install [cuDNN](https://developer.nvidia.com/cudnn) and move the files into a new-folder called tools in Nvidia GPU Computing Toolkit   
 6. Ensure the following paths are available in Environment Varibales:  
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin   
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp   
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\extras\CUPTI\lib64   
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include   
 C:\Program Files\NVIDIA GPU Computing Toolkit\tools\cudnn-windows-x86_64-8.6.0.163_cuda11-archive\bin   
-C:\Program Files\NVIDIA GPU Computing Toolkit\tools\cudnn-windows-x86_64-8.6.0.163_cuda11-archive\include   
-7. Install [Anaconda Python](https://www.anaconda.com/)
-8. Check in Command Prompt and Windows Powershell in  `python --version` and `conda` 
+C:\Program Files\NVIDIA GPU Computing Toolkit\tools\cudnn-windows-x86_64-8.6.0.163_cuda11-archive\include       
+7. Install [Anaconda Python](https://www.anaconda.com/)  
+8. Check in Command Prompt and Windows Powershell in  `python --version` and `conda`   
 9. In Command Prompt: 
     * `conda create -n <your_env-name> python=3.9.13` 
     * To activate your environment, type `conda activate <your_env-name>' and to deactivate an active environment, type `conda deactivate'
@@ -33,7 +33,7 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\tools\cudnn-windows-x86_64-8.6.0.1
     * `pip install tensorflow   `
     * `conda install pytorch cudatoolkit -c pytorch   ` for both CPU and GPU 
     * `conda install pytorch -c pytorch   ` for only CPU  
-    * `pip install torchvision   ` 
+    * `pip install torchvision   `   
 10. ```{python}
         # Test for Tensorflow and Pytorch for CUDA GPUs, should return True
         import tensorflow as tf
