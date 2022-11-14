@@ -1,0 +1,3 @@
+/home/att/Workbook/fastfourierT/LibTorchTryOut/build/CMakeFiles/torchtest.dir
+/home/att/Workbook/fastfourierT/LibTorchTryOut/build/CMakeFiles/edit_cache.dir
+/home/att/Workbook/fastfourierT/LibTorchTryOut/build/CMakeFiles/rebuild_cache.dir
